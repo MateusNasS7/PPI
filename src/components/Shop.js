@@ -2,6 +2,7 @@ import { useContext } from "react";
 import Product from "./Product";
 import { CircularProgress } from "@mui/material";
 import { CartContext } from "../context/CartContext";
+import styles from "./Shop.module.css";
 
 export default function Shop() {
 
